@@ -135,7 +135,7 @@ footer {
 
 .meint {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     align-items: center;
 }
 
@@ -167,7 +167,7 @@ footer {
     height: auto;
     border-radius: 50%;
     grid-row: 1/5;
-    grid-column: 6/8;
+    grid-column: 7/9;
     align-self: center;
     justify-self: left;
     border: 1px solid;
