@@ -21,28 +21,20 @@ header {
     justify-items: end;
 }
 
+
 .logo {
-    width: 10%;
-    height: auto;
+    width: 100px;
 }
-/* /* a {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-decoration: none;
-    margin: 35px;
-    align-items: center;
-} */
+
+#logo{
+    justify-self: left;
+}
 
 .logo:hover {
         opacity: .9;
         transform: scale(1.1);
         transition: 1s;
 }
-
-
-
-
-
 
 #resume {
     grid-column: 2/3;
