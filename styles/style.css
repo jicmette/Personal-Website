@@ -15,15 +15,69 @@ body {
 header {
     background-color: #1f2028;
     display: grid;
-    grid-template-columns: 150px auto;
+    margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: end;
 }
 
 .logo {
-    width: 100%;
+    width: 10%;
     height: auto;
 }
+/* /* a {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 35px;
+    align-items: center;
+} */
+
+.logo:hover {
+        opacity: .9;
+        transform: scale(1.1);
+        transition: 1s;
+}
+
+
+
+
+
+
+#resume {
+    grid-column: 2/3;
+    justify-content: end;
+    margin-right: 40px;
+    border: 1px solid;
+    padding: 3px;
+    box-shadow: 5px 3px;
+    
+}
+
+#resume:hover{
+    opacity: .9;
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: #0E9BAD;
+    border: 1px solid;
+    border-color: #dbdbdb;
+    box-shadow: 5px 3px #dbdbdb;
+}
+
+#aresume{
+    color: #1f2028;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #dbdbdb;
+}
+
+#aresume:hover{
+    color: #1f2028;
+}
+
+
+
 
 h1,
 h2,
@@ -47,13 +101,13 @@ a {
     align-items: center;
 }
 
-a:hover {
+/* a:hover {
     color: #0E9BAD;
     transition: .7s;
     border: 1px solid;
     padding: 5px;
     box-shadow: 5px 3px;
-}
+} */
 
 /*  OVERLAY*/
 
@@ -102,6 +156,7 @@ a:hover {
 
 #kmore {
     font-size: 1.500em;
+    grid-column: 4/3;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
     color: white;
@@ -125,6 +180,11 @@ footer {
 
 .imgfoot {
     width: 32px;
+}
+
+.imgfoot:hover {
+    filter: contrast(0%);
+    transition: .5s;
 }
 
 .contact {
@@ -176,11 +236,10 @@ footer {
 .mepic {
     width: 40%;
     height: auto;
-    border-radius: 50%;
     grid-row: 1/5;
     grid-column: 7/9;
     align-self: center;
-    justify-self: left;
+    justify-self: center;
     border: 1px solid;
     padding: 5px;
     box-shadow: 5px 3px;
@@ -449,28 +508,6 @@ footer {
     justify-self: center;
 }
 
-.imgcomisa {
-    grid-column: 6/8;
-    grid-row: 4/5;
-    width: 500px;
-    height: auto;
-    border: 1px solid;
-    padding: 5px;
-    box-shadow: 5px 10px;
-    margin-bottom: 30px;
-}
-
-.imgcomisa:hover {
-    opacity: .9;
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.buttoncomisa {
-    grid-row: 5/6;
-    grid-column: 6/8;
-    justify-self: center;
-}
 
 .containercontact {
     display: grid;
@@ -668,28 +705,30 @@ input[type=email]::placeholder {
 .mylinks{
     background-color: white;
     padding: 10px;
-    border-color: #0E9BAD;
     text-align: center;
     margin: 15px;
     border: 5px;
     border-radius: 30px;
     color: #1f2028;
+    font-weight: bolder;
     font-family: 'Ubuntu', sans-serif;
     grid-row: 6/7;
     
 }
 
+
+.mylinks:hover{
+    transition: 1s;
+    background-color: #80d2d8;
+    
+}
 #links{
     color: #1f2028;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
 
-#links:hover{
-    color: #0E9BAD;
-    transition: .7s;
-    
-}
+
 
 
 @media screen and (max-width: 700px) {

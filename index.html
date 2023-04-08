@@ -1,101 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="styles/style.css">
-    <link rel="icon" type="image/jpg" href="images/favicon-32x32.png"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/jpg" href="images/favicon-32x32.png" />
     <title>/Me</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="maincontainer">
-        <!--HEADER-->
-        <header>
-            <a id="logo" href="index.html">
-                <img class="logo" src="images/ilogo.png" alt="Logo Israel Carmona">
-            </a>
-            <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <div class="overlay-content">
-                    <a href="index.html">/Me</a>
-                    <a href="whatido.html">/What I Do</a>
-                    <a href="mywork.html">/My Work</a>
-                </div>
-            </div>
-            <span id="kmore" onclick="openNav()">&#9776; About Me</span>
+      <!--HEADER-->
+      <header>
+        <div class="header-logo">
+          <a id="logo" href="index.html">
+            <img
+              class="logo"
+              src="images/ilogo.png"
+              alt="Logo Israel Carmona"
+            />
+          </a>
+        </div>
+        <div id="resume">
+          <a id="aresume"
+            href="/Jose Israel Carmona Morales - Resume.pdf"
+            target="_blank"
+            >RESUME
+          </a>
+        </div>
 
-        </header>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="index.html">/Me</a>
+            <a href="whatido.html">/What I Do</a>
+            <a href="mywork.html">/My Work</a>
+          </div>
+        </div>
+        <span id="kmore" onclick="openNav()">&#9776; About Me</span>
+      </header>
 
-        <!--MAIN CONTENT-->
-        <main>
-            <div class="containerintro">
-                <div class="meint">
-                    <h2 class="h2side">Hi, my name is <br></h2>
-                    <h1 class="h1side">Israel Carmona.</h1>
-                    <h2 class="h2side2">I am a junior web developer.</h2>
-                    <img class="mepic" src="images/me.jpg" alt="me">
-                    
-                    <p class="pside1">I develop with HTML, CSS, JavaScript, Python and C#. I
-                        developed a web site for an IT business. I will help make your web site or software work with functional and effective
-                        tools, where your products, services and ideas will be embodied.
+      <!--MAIN CONTENT-->
+      <main>
+        <div class="containerintro">
+          <div class="meint">
+            <h2 class="h2side">Hi, my name is <br /></h2>
+            <h1 class="h1side">Israel Carmona.</h1>
+            <h2 class="h2side2">I am a junior web developer.</h2>
+            <img class="mepic" src="images/me.jpg" alt="me" />
 
-                    
+            <p class="pside1">
+              I develop with HTML, CSS, JavaScript, Python and C#. I developed a
+              web site for an IT business. I will help make your web site or
+              software work with functional and effective tools, where your
+              products, services and ideas will be embodied.
+            </p>
 
-                    <p class="pside2">These are the technologies I've been working lately</p>
+            <p class="pside2">
+              These are the technologies I've been working lately
+            </p>
 
-                    <img class="imgh" src="images/HTML5_Logo_64.png" alt="HTML logo">
-                    <p class="htpar">HTML</p>
+            <img class="imgh" src="images/HTML5_Logo_64.png" alt="HTML logo" />
+            <p class="htpar">HTML</p>
 
-                    <img class="imgc" src="images/CSS3_logo_and_wordmark.svg.png" alt="CSS Logo">
-                    <p class="cspar">CSS</p>
+            <img
+              class="imgc"
+              src="images/CSS3_logo_and_wordmark.svg.png"
+              alt="CSS Logo"
+            />
+            <p class="cspar">CSS</p>
 
-                    <img class="imgj" src="images/Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript Logo">
-                    <p class="javpar">JavaScript</p>
+            <img
+              class="imgj"
+              src="images/Unofficial_JavaScript_logo_2.svg.png"
+              alt="JavaScript Logo"
+            />
+            <p class="javpar">JavaScript</p>
 
-                    <img class="imgp" src="images/1024px-Python-logo-notext.svg.png" alt="Python Logo">
-                    <p class="pytpar">Python</p>
+            <img
+              class="imgp"
+              src="images/1024px-Python-logo-notext.svg.png"
+              alt="Python Logo"
+            />
+            <p class="pytpar">Python</p>
 
-                    <img class="imgcs" src="images/seesharp.png" alt="C Sharp Logo">
-                    <p class="csharpar">C#</p>
+            <img class="imgcs" src="images/seesharp.png" alt="C Sharp Logo" />
+            <p class="csharpar">C#</p>
+          </div>
+        </div>
+      </main>
 
-                </div>
-            </div>
-        </main>
+      <!--FOOTER-->
+      <footer>
+        <p class="pfoot">.</p>
 
-        <!--FOOTER-->
-        <footer>
-            <p class="pfoot">.</p>
-            
-            <div class="contact">
-                <a href="https://github.com/jicmette" target="blank">
-                    <img class="imgfoot" src="images/GitHub-Mark-Light-32px.png" alt="GitHub">
-                </a>
-                <a href="https://www.linkedin.com/in/jicmette/" target="blank">
-                    <img class="imgfoot" src="images/LI-In-Bugwhite.png" alt="linkedin">
-                </a>
-                <a href="mailto:jicmettesc@gmail.com" target="blank">
-                    <img class="imgfoot" src="images/Email-Symbol-PNG-File.png" alt="Email">
-                </a>
-            </div>
-            <p class="pfoot">Designed and Built by Israel Carmona </p>
-            <p class="pfoot">&copy; 2023 </p>
-            
-        </footer>
+        <div class="contact">
+          <a href="https://github.com/jicmette" target="blank">
+            <img
+              class="imgfoot"
+              src="images/GitHub-Mark-Light-32px.png"
+              alt="GitHub"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/jicmette/" target="blank">
+            <img
+              class="imgfoot"
+              src="images/LI-In-Bugwhite.png"
+              alt="linkedin"
+            />
+          </a>
+          <a href="mailto:jicmettesc@gmail.com" target="blank">
+            <img
+              class="imgfoot"
+              src="images/Email-Symbol-PNG-File.png"
+              alt="Email"
+            />
+          </a>
+        </div>
+        <p class="pfoot">Designed and Built by Israel Carmona</p>
+        <p class="pfoot">&copy; 2023</p>
+      </footer>
     </div>
 
     <script>
-        function openNav() {
-            document.getElementById("myNav").style.display = "block";
-        }
+      function openNav() {
+        document.getElementById("myNav").style.display = "block";
+      }
 
-        function closeNav() {
-            document.getElementById("myNav").style.display = "none";
-        }
+      function closeNav() {
+        document.getElementById("myNav").style.display = "none";
+      }
     </script>
-
-</body>
-
+  </body>
 </html>
