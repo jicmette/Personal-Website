@@ -139,6 +139,11 @@ footer {
     align-items: center;
 }
 
+.h2side {
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+
 .h1side {
     grid-column: 3/6;
     grid-row: 2/3;
@@ -147,17 +152,14 @@ footer {
     color: white;
 }
 
-.h2side {
-    grid-column: 3/5;
-    grid-row: 1/2;
-}
-
 .h2side2 {
     grid-column: 3/5;
+    grid-row: 3/4;
 }
 
 .pside1 {
     grid-column: 3/7;
+    grid-row: 4/5;
     text-align: left;
     line-height: 1.5;
 }
