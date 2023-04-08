@@ -181,7 +181,7 @@ footer {
     transition: 1s;
 }
 
-#imagecent {
+/* #imagecent {
     width: 50%;
     height: auto;
     display: block;
@@ -192,7 +192,7 @@ footer {
     padding: 5px;
     box-shadow: 5px 10px;
     margin-bottom: 30px;
-}
+} */
 
 .pfoot {
     border: 0;
