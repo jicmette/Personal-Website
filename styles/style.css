@@ -5,14 +5,14 @@
 
 /*  PRINCIPAL CSS */
 body {
-    background-color: #2C2C2A;
+    background-color: #1f2028;
     color: #0E9BAD;
 }
 
 /*  HEADER */
 
 header {
-    background-color: #2C2C2A;
+    background-color: #1f2028;
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center;
