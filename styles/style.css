@@ -12,7 +12,7 @@ body {
 /*  HEADER */
 
 header {
-    background-color: #1f2028;
+    background-color: #f2f2f3;
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center;
@@ -289,6 +289,22 @@ footer {
 }
 
 .imgp:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.imgcs {
+    width: 32px;
+    grid-row: 7/8;
+    grid-column: 6/7;
+    justify-self: center;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 3px;
+}
+
+.imgcs:hover {
     opacity: .9;
     transform: scale(1.1);
     transition: 1s;
