@@ -216,7 +216,7 @@ footer {
 
 .imgh {
     width: 32px;
-    grid-row: 6/7;
+    grid-row: 7/8;
     grid-column: 3/4;
     justify-self: center;
     border: 1px solid;
@@ -232,7 +232,7 @@ footer {
 
 .htpar {
     grid-column: 3/4;
-    grid-row: 7/8;
+    grid-row: 8/9;
     color: white;
     align-self: center;
     justify-self: center;
@@ -240,7 +240,7 @@ footer {
 
 .imgc {
     width: 32px;
-    grid-row: 6/7;
+    grid-row: 7/8;
     grid-column: 4/5;
     justify-self: center;
     border: 1px solid;
@@ -257,7 +257,7 @@ footer {
 
 .cspar {
     grid-column: 4/5;
-    grid-row: 7/8;
+    grid-row: 8/9;
     color: white;
     align-self: center;
     justify-self: center;
@@ -265,7 +265,7 @@ footer {
 
 .imgj {
     width: 32px;
-    grid-row: 6/7;
+    grid-row: 7/8;
     grid-column: 5/6;
     justify-self: center;
     border: 1px solid;
@@ -281,7 +281,7 @@ footer {
 
 .javpar {
     grid-column: 5/6;
-    grid-row: 7/8;
+    grid-row: 8/9;
     color: white;
     align-self: center;
     justify-self: center;
@@ -289,7 +289,7 @@ footer {
 
 .imgp {
     width: 32px;
-    grid-row: 6/7;
+    grid-row: 7/8;
     grid-column: 6/7;
     justify-self: center;
     border: 1px solid;
@@ -304,7 +304,7 @@ footer {
 }
 
 .pytpar {
-    grid-column: 6/7;
+    grid-column: 8/9;
     grid-row: 7/8;
     color: white;
     align-self: center;
@@ -313,7 +313,7 @@ footer {
 
 .imgcs {
     width: 32px;
-    grid-row: 6/7;
+    grid-row: 7/8;
     grid-column: 7/8;
     justify-self: center;
     border: 1px solid;
@@ -328,7 +328,7 @@ footer {
 }
 .csharpar {
     grid-column: 7/8;
-    grid-row: 7/8;
+    grid-row: 8/9;
     color: white;
     align-self: center;
     justify-self: center;
