@@ -156,7 +156,13 @@ footer {
     grid-column: 3/5;
 }
 
-.pside {
+.pside1 {
+    grid-column: 3/7;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.pside2 {
     grid-column: 3/7;
     grid-row: 6/7;
     text-align: left;
