@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/jpg" href="images/favicon-32x32.png" />
+    <title>My Work</title>
+  </head>
+
+  <body>
+    <div class="maincontainer">
+      <!--HEADER-->
+      <header>
+        <a id="logo" href="index.html">
+          <img class="logo" src="images/ilogo.png" alt="Logo Israel Carmona" />
+        </a>
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="whatido.html">What I Do</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <span id="kmore" onclick="openNav()">&#9776; About Me</span>
+      </header>
+
+      <!--MAIN CONTENT-->
+      <main>
+        <div class="containermywork">
+          <h1 class="h1mywork">Contact Me</h1>
+        </div>
+
+        <div class="containercontact">
+          <p class="pcontact">
+            I'm currently looking for any new opportunities, my inbox is always
+            open. I'll try my best to get back to you!
+          </p>
+
+          <div class="formarea">
+            <form class="form1" action="/my-handling-form-page" method="post">
+              <input
+                type="text"
+                id="name"
+                name="user_name"
+                placeholder="Name"
+              />
+
+              <input
+                type="email"
+                id="mail"
+                name="user_email"
+                placeholder="Email"
+              />
+
+              <textarea
+                id="msg"
+                name="user_message"
+                placeholder="Message"
+              ></textarea>
+
+              <button
+                class="button"
+                onclick="messagesent_alert()"
+                type="submit"
+              >
+                Send your message!
+              </button>
+            </form>
+          </div>
+
+          <div class=""></div>
+          <img class="imgmap" src="images/map2.jpg" alt="map" />
+        </div>
+      </main>
+
+      <!--FOOTER-->
+      <footer>
+        <p class="pfoot">.</p>
+        
+        <div class="contact">
+          <a href="https://github.com/jicmette" target="blank">
+            <img
+              class="imgfoot"
+              src="images/GitHub-Mark-Light-32px.png"
+              alt="GitHub"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/jicmette/" target="blank">
+            <img
+              class="imgfoot"
+              src="images/LI-In-Bugwhite.png"
+              alt="linkedin"
+            />
+          </a>
+          <a href="mailto:jicmettesc@gmail.com" target="blank">
+            <img
+              class="imgfoot"
+              src="images/Email-Symbol-PNG-File.png"
+              alt="Email"
+            />
+          </a>
+        </div>
+        <p class="pfoot">Designed and Built by Israel Carmona</p>
+        <p class="pfoot">&copy; 2023</p>
+      </footer>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.display = "block";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.display = "none";
+      }
+
+      function messagesent_alert() {
+        var name = document.getElementById("name").value;
+        alert(
+          "Hello " +
+            name +
+            " I will get back to you as soon as possible, thank you!"
+        );
+      }
+    </script>
+  </body>
+</html>
