@@ -14,7 +14,7 @@ body {
 header {
     background-color: #1f2028;
     display: grid;
-    margin-top: 20px;
+    margin-top: 10px;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: end;
@@ -22,7 +22,7 @@ header {
 
 
 .logo {
-    width: 100px;
+    width: 7%;
 }
 
 #logo{
@@ -61,6 +61,17 @@ header {
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     color: #dbdbdb;
+}
+
+.greathone{
+    position: absolute;
+    color: #282931;
+    font-size: 15vw;
+    top: 25px;
+    left: 500px;
+    z-index: -1;
+    grid-column: 1/10;
+    grid-row: 1/5;
 }
 
 h1,
@@ -130,7 +141,7 @@ a {
 }
 
 #kmore {
-    font-size: 1.500em;
+    font-size: 1.5rem;
     grid-column: 4/3;
     font-family: 'Ubuntu', sans-serif;
     cursor: pointer;
@@ -175,12 +186,12 @@ footer {
 }
 
 .h2side {
-    grid-column: 3/5;
+    grid-column: 2/5;
     grid-row: 1/2;
 }
 
 .h1side {
-    grid-column: 3/6;
+    grid-column: 2/6;
     grid-row: 2/3;
     font-size: 80px;
     margin: 0;
@@ -188,28 +199,28 @@ footer {
 }
 
 .h2side2 {
-    grid-column: 3/5;
+    grid-column: 2/5;
     grid-row: 3/4;
 }
 
 .pside1 {
-    grid-column: 3/7;
+    grid-column: 2/7;
     grid-row: 4/5;
     text-align: justify;
     line-height: 1.5;
-    font-size: 1.300rem;
+    font-size: 2rem;
 }
 
 .pside2 {
-    grid-column: 3/7;
+    grid-column: 2/7;
     grid-row: 6/7;
     text-align: left;
     line-height: 1.5;
-    font-size: 1.300rem;
+    font-size: 2rem;
 }
 
 .mepic {
-    width: 40%;
+    width: 60%;
     height: auto;
     grid-row: 1/5;
     grid-column: 7/9;
@@ -220,11 +231,7 @@ footer {
     box-shadow: 5px 3px #0E9BAD;
 }
 
-.mepic:hover {
-    opacity: .9;
-    transform: scale(1.1);
-    transition: 1s;
-}
+
 
 .pfoot {
     border: 0;
@@ -357,70 +364,6 @@ footer {
     justify-self: center;
 }
 
-
-
-/*  What I Do Page */
-
-.containerwhatido {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-}
-
-.h1wido {
-    grid-column: 3/7;
-    font-size: 80px;
-    justify-self: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #dbdbdb;
-}
-
-.h2wido {
-    grid-column: 3/7;
-    grid-row: 2/3;
-    justify-self: center;
-}
-
-.pwido {
-    grid-column: 3/7;
-    text-align: center;
-    font-size: 1.300em;
-    line-height: 1.5;
-}
-
-.containerwhatido2 {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-
-}
-
-.h2wido2 {
-    grid-column: 3/7;
-    justify-self: center;
-    grid-row: 1/2;
-}
-
-.pwido2 {
-    grid-column: 3/7;
-    grid-row: 2/3;
-    text-align: center;
-    font-size: 1.300em;
-    line-height: 1.5;
-}
-
-.imgsize1 {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    border: 1px solid #0E9BAD;
-    padding: 5px;
-    box-shadow: 5px 10px #0E9BAD;
-    margin-bottom: 30px;
-}
-
 /*  Contact */
 
 .containermywork {
@@ -471,33 +414,10 @@ footer {
     margin-bottom: 30px;
 }
 
-.imgnexb:hover {
-    opacity: .9;
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.buttonexbitek {
-    grid-row: 5/6;
-    grid-column: 3/5;
-    justify-self: center;
-}
-
-
 .containercontact {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     align-items: center;
-}
-
-.h1contactme {
-    grid-column: 2/9;
-    grid-row: 1/2;
-    font-size: 60px;
-    justify-self: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #2CD3E9;
 }
 
 .pcontact {
@@ -539,7 +459,7 @@ footer {
 
 
 input[type=text] {
-    background-color: #484848;
+    background-color: #22232c;
     color: white;
     grid-column: 2/5;
     width: 100%;
@@ -553,7 +473,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    border-bottom: 5px solid #0E9BAD;
+    border-bottom: 5px solid #dbdbdb;
     transition: .7s;
 }
 
@@ -563,7 +483,7 @@ input[type=text]::placeholder {
 }
 
 input[type=email] {
-    background-color: #484848;
+    background-color: #22232c;
     color: #dbdbdb;
     grid-column: 2/5;
     width: 100%;
@@ -577,7 +497,7 @@ input[type=email] {
 }
 
 input[type=email]:focus {
-    border-bottom: 5px solid #0E9BAD;
+    border-bottom: 5px solid #dbdbdb;
     transition: .7s;
 }
 
@@ -587,14 +507,14 @@ input[type=email]::placeholder {
 }
 
 #msg {
-    background-color: #484848;
+    background-color: #22232c;
     color: white;
     margin-top: 10px;
     grid-column: 2/6;
     justify-self: center;
     width: 100%;
-    height: 200px;
-    font-size: 16px;
+    height: 150px;
+    font-size: 15px;
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     outline: none;
@@ -602,7 +522,7 @@ input[type=email]::placeholder {
 }
 
 #msg:focus {
-    border-bottom: 5px solid #0E9BAD;
+    border-bottom: 5px solid #dbdbdb;
     transition: .7s;
 }
 
@@ -616,15 +536,15 @@ input[type=email]::placeholder {
     background-color: #2C2C2A;
     color: #dbdbdb;
     font-size: 16px;
-    border: 2px solid #0E9BAD;
+    border: 2px solid #dbdbdb;
     margin-top: 10px;
     font-family: 'Ubuntu', sans-serif;
     width: 100px;
 }
 
 .button:hover {
-    background-color: #0E9BAD;
-    color: #dbdbdb;
+    background-color: #dbdbdb;
+    color: #1f2028;
     transition: 1s;
 }
 
@@ -774,9 +694,23 @@ input[type=email]::placeholder {
 @media screen and (max-width: 700px) {
 
     nav,
-    footer {
-        flex-direction: column;
-        margin: 15px;
+    footer,
+    .maincontainer {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+
+    .logo{
+        width: 40%;
+        justify-self: left;
+        margin-left: 0;
+    }
+
+    .mepic{
+        position: fixed;
+        top: 260px;
+        width: 20%;
     }
 
     nav a {
@@ -794,16 +728,6 @@ input[type=email]::placeholder {
         margin: 15px;
     }
 
-    .imgnexb {
-        width: 200px;
-        height: auto;
-    }
-
-    .imgcomisa {
-        width: 200px;
-        height: auto;
-    }
-
     .imgmap {
         width: 300px;
         height: auto;
@@ -814,7 +738,24 @@ input[type=email]::placeholder {
     }
 
     .h1side {
-        font-size: 50px;
+        font-size: 2rem;
+    }
+
+    .h2side {
+        font-size: 1.2rem;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .pside1{
+        font-size: 1.3rem;
+        text-align: left;
+        margin-top: 200px;
+    }
+
+    .pside2{
+        font-size: 1.3rem;
+        text-align: left;
     }
 
     .h1mywork {
@@ -830,6 +771,34 @@ input[type=email]::placeholder {
         
     }
 
+    #imgfirst{
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+
+    #imgsnd{
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .greathone{
+        position: absolute;
+        color: #282931;
+        top: 160px;
+        text-align: left;
+        left: 100px;
+        font-size: 15vw;
+        z-index: -1;
+        grid-column: 1/10;
+        grid-row: 1/5;
+    }
+
+
+    
+    
 }
 
 @media screen and (max-width: 1216px) {
