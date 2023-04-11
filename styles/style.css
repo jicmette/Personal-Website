@@ -808,6 +808,19 @@ input[type=email]::placeholder {
         text-align: center;
     }
 
+    #imgfirst{
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+
+    #imgsnd{
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
 }
 
 @media screen and (max-width: 928px) {
@@ -815,6 +828,19 @@ input[type=email]::placeholder {
         display: block;
         height: auto;
         text-align: center;
+    }
+
+    #imgfirst{
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+
+    #imgsnd{
+        width: 50%;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
 }
