@@ -709,8 +709,10 @@ input[type=email]::placeholder {
 
     .mepic{
         position: fixed;
+        width: 150px;
+        height: auto;
         top: 260px;
-        width: 20%;
+        
     }
 
     nav a {
@@ -750,7 +752,7 @@ input[type=email]::placeholder {
     .pside1{
         font-size: 1.3rem;
         text-align: left;
-        margin-top: 200px;
+        margin-top: 220px;
     }
 
     .pside2{
@@ -768,7 +770,6 @@ input[type=email]::placeholder {
 
     .mepiclinks {
         width: 90px;
-        
     }
 
     #imgfirst{
@@ -789,16 +790,12 @@ input[type=email]::placeholder {
         color: #282931;
         top: 160px;
         text-align: left;
-        left: 100px;
+        left: 50px;
         font-size: 15vw;
         z-index: -1;
         grid-column: 1/10;
         grid-row: 1/5;
     }
-
-
-    
-    
 }
 
 @media screen and (max-width: 1216px) {
@@ -819,6 +816,18 @@ input[type=email]::placeholder {
         width: 50%;
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+
+    .greathone{
+        position: absolute;
+        color: #282931;
+        top: 160px;
+        text-align: left;
+        left: 50px;
+        font-size: 15vw;
+        z-index: -1;
+        grid-column: 1/10;
+        grid-row: 1/5;
     }
 
 }
@@ -842,5 +851,19 @@ input[type=email]::placeholder {
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
+    .greathone{
+        position: absolute;
+        color: #282931;
+        top: 160px;
+        text-align: left;
+        left: 50px;
+        font-size: 15vw;
+        z-index: -1;
+        grid-column: 1/10;
+        grid-row: 1/5;
+    }
+
+    
 
 }
