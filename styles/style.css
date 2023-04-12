@@ -708,7 +708,7 @@ input[type=email]::placeholder {
     }
 
     .mepic{
-        position: fixed;
+        position: absolute;
         width: 150px;
         height: auto;
         top: 260px;
