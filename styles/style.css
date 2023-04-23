@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 
-/*  PRINCIPAL CSS */
+/*  MAIN CSS */
 body {
     background-color: #1f2028;
     display: grid;
@@ -19,7 +19,6 @@ header {
     align-items: center;
     justify-items: end;
 }
-
 
 .logo {
     width: 7%;
@@ -43,7 +42,6 @@ header {
     padding: 3px;
     box-shadow: 5px 3px;
     color: #0E9BAD;
-    
 }
 
 #resume:hover{
@@ -118,6 +116,14 @@ a {
     margin-top: 30px;
 }
 
+.overlay-links{
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+}
+
 .overlay a {
     padding: 8px;
     text-decoration: none;
@@ -181,8 +187,6 @@ footer {
     color: #dbdbdb;
 }
 
-
-
 /*  Israel Carmona Page */
 
 .meint {
@@ -236,8 +240,6 @@ footer {
     padding: 5px;
     box-shadow: 5px 3px #0E9BAD;
 }
-
-
 
 .pfoot {
     border: 0;
@@ -443,7 +445,6 @@ footer {
     grid-column: 2/6;
     grid-row: 3/5;
     padding: 50px;
-
 }
 
 .form1 {
@@ -463,14 +464,13 @@ footer {
     justify-self: center;
 }
 
-
 input[type=text] {
     background-color: #343542;
     color: white;
     grid-column: 2/5;
     width: 100%;
     height: 40px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
     grid-row-start: 3;
     border: 0;
@@ -484,17 +484,13 @@ input[type=text]:focus {
     transition: .7s;
 }
 
-input[type=text]::placeholder {
-    color: #dbdbdb;
-}
-
 input[type=email] {
     background-color: #343542;
     color: #dbdbdb;
     grid-column: 2/5;
     width: 100%;
     height: 40px;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
     margin-top: 10px;
     justify-self: center;
@@ -508,10 +504,6 @@ input[type=email]:focus {
     transition: .7s;
 }
 
-input[type=email]::placeholder {
-    color: #dbdbdb;
-}
-
 #msg {
     background-color: #343542;
     color: white;
@@ -520,21 +512,18 @@ input[type=email]::placeholder {
     justify-self: center;
     width: 100%;
     height: 150px;
-    font-size: 15px;
+    font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     outline: none;
-    resize: none;
+    resize: vertical;
     padding: 10px;
+    line-height: 1.5;
 }
 
 #msg:focus {
     border-bottom: 5px solid #dbdbdb;
     transition: .7s;
-}
-
-#msg::placeholder {
-    color: #dbdbdb;
 }
 
 .button {
@@ -594,9 +583,7 @@ input[type=email]::placeholder {
     border-radius: 50%;
     justify-self: center;
     margin-top: 25px;
-    
 }
-
 
 .listlinks{
     grid-row: 6/7;
@@ -614,9 +601,7 @@ input[type=email]::placeholder {
     font-weight: bolder;
     font-family: 'Ubuntu', sans-serif;
     grid-row: 6/7;
-    
 }
-
 
 .mylinks:hover{
     transition: 1s;
@@ -628,7 +613,6 @@ input[type=email]::placeholder {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
-
 
 /* My Portfolio */
 
@@ -646,7 +630,6 @@ input[type=email]::placeholder {
     grid-row: 4/5;
 }
 
-
 #imgfirst{
     width: 100%;
     grid-column: 3/5;
@@ -655,7 +638,6 @@ input[type=email]::placeholder {
     border: 1px solid #0E9BAD;
     padding: 5px;
     box-shadow: 5px 3px #0E9BAD;
-
 }
 
 #imgfirst:hover {
@@ -664,8 +646,7 @@ input[type=email]::placeholder {
     transition: .5s;
 }
 
-#secondpro
-{
+#secondpro {
     grid-column: 6/8;
     grid-row: 3/4;
     justify-self: center;
@@ -673,12 +654,12 @@ input[type=email]::placeholder {
     color: #0E9BAD;
 }
 
-#aimgtwo{
+#aimgtwo {
     grid-column: 6/8;
     grid-row: 4/5;
 }
 
-#imgsnd{
+#imgsnd {
     width: 100%;
     grid-column: 6/8;
     grid-row: 4/5;
@@ -693,9 +674,6 @@ input[type=email]::placeholder {
     transform: scale(1.1);
     transition: .5s;
 }
-
-
-
 
 @media screen and (max-width: 700px) {
 
@@ -718,14 +696,12 @@ input[type=email]::placeholder {
         width: 150px;
         height: auto;
         top: 260px;
-        
     }
 
     nav a {
         display: block;
         margin: 15px;
         padding-top: 20px;
-
     }
 
     a {
@@ -783,7 +759,6 @@ input[type=email]::placeholder {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    
 
     #imgsnd{
         width: 50%;
@@ -817,7 +792,6 @@ input[type=email]::placeholder {
         margin-bottom: 15px;
     }
     
-
     #imgsnd{
         width: 50%;
         margin-top: 15px;
@@ -851,7 +825,6 @@ input[type=email]::placeholder {
         margin-bottom: 15px;
     }
     
-
     #imgsnd{
         width: 50%;
         margin-top: 15px;
@@ -869,7 +842,5 @@ input[type=email]::placeholder {
         grid-column: 1/10;
         grid-row: 1/5;
     }
-
-    
 
 }
