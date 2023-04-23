@@ -177,7 +177,13 @@ footer {
     margin: 10px;
 }
 
-/*  Israel Carmona PAge */
+.currentYear {
+    color: #dbdbdb;
+}
+
+
+
+/*  Israel Carmona Page */
 
 .meint {
     display: grid;
@@ -459,7 +465,7 @@ footer {
 
 
 input[type=text] {
-    background-color: #22232c;
+    background-color: #343542;
     color: white;
     grid-column: 2/5;
     width: 100%;
@@ -470,6 +476,7 @@ input[type=text] {
     border: 0;
     outline: none;
     justify-self: center;
+    padding-left: 10px;
 }
 
 input[type=text]:focus {
@@ -479,11 +486,10 @@ input[type=text]:focus {
 
 input[type=text]::placeholder {
     color: #dbdbdb;
-    padding-left: 10px;
 }
 
 input[type=email] {
-    background-color: #22232c;
+    background-color: #343542;
     color: #dbdbdb;
     grid-column: 2/5;
     width: 100%;
@@ -494,6 +500,7 @@ input[type=email] {
     justify-self: center;
     border: 0;
     outline: none;
+    padding-left: 10px;
 }
 
 input[type=email]:focus {
@@ -503,11 +510,10 @@ input[type=email]:focus {
 
 input[type=email]::placeholder {
     color: #dbdbdb;
-    padding-left: 10px;
 }
 
 #msg {
-    background-color: #22232c;
+    background-color: #343542;
     color: white;
     margin-top: 10px;
     grid-column: 2/6;
@@ -519,6 +525,7 @@ input[type=email]::placeholder {
     text-decoration: none;
     outline: none;
     resize: none;
+    padding: 10px;
 }
 
 #msg:focus {
@@ -528,7 +535,6 @@ input[type=email]::placeholder {
 
 #msg::placeholder {
     color: #dbdbdb;
-    padding: 10px;
 }
 
 .button {

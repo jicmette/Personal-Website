@@ -17,9 +17,7 @@
           <img class="logo" src="images/ilogo.png" alt="Logo Israel Carmona" />
         </a>
         <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-            >&times;</a
-          >
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <div class="overlay-content">
             <a href="index.html">Home</a>
             <a href="portfolio.html">Portfolio</a>
@@ -35,29 +33,22 @@
           <h1 class="greathone">Portfolio.</h1>
           <h1 class="h1mywork">Portfolio.</h1>
           
-
           <p class="pmywork">
             These are some of my projects, check them out!
           </p>
 
-        
             <h2 id="firstpro" >Star Wars API</h2>
             
                 <a id="aimgone" href="/portfolio/starwarsapi/starwarsapi.html" target="_blank">
                     <img id="imgfirst" src="/portfolio/starwarsapi/images/starwarsimg.jpg" alt="Star Wars Project">
                 </a>
-     
 
             <h2 id="secondpro">Nexbitek</h2>
                 <a id="aimgtwo" href="https://www.nexbitek.com/" target="_blank">
                     <img id="imgsnd" src="/images/Nexbitek.png" alt="Nexbitek">
                 </a>
-            
-        
-
         </div>
-
-         
+ 
       </main>
 
       <!--FOOTER-->
@@ -88,27 +79,12 @@
           </a>
         </div>
         <p class="pfoot">Designed and Built by Israel Carmona</p>
-        <p class="pfoot">&copy; 2023</p>
+        <p class="pfoot">&copy; <span class="currentYear"></span></p>
       </footer>
+
     </div>
 
-    <script>
-      function openNav() {
-        document.getElementById("myNav").style.display = "block";
-      }
+    <script src="scripts/scripts.js"></script>
 
-      function closeNav() {
-        document.getElementById("myNav").style.display = "none";
-      }
-
-      function messagesent_alert() {
-        var name = document.getElementById("name").value;
-        alert(
-          "Hello " +
-            name +
-            " I will get back to you as soon as possible, thank you!"
-        );
-      }
-    </script>
   </body>
 </html>
