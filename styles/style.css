@@ -675,6 +675,65 @@ input[type=email]:focus {
     transition: .5s;
 }
 
+#thirdpro {
+    grid-column: 3/5;
+    grid-row: 5/6;
+    justify-self: center;
+    margin: 5px;
+    color: #0E9BAD;
+}
+
+#aimgthree {
+    grid-column: 3/5;
+    grid-row: 6/7;
+}
+
+#imgthree {
+    width: 100%;
+    grid-column: 3/5;
+    grid-row: 6/7;
+    justify-self: center;
+    border: 1px solid #0E9BAD;
+    padding: 5px;
+    box-shadow: 5px 3px #0E9BAD;
+}
+
+#imgthree:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+#fourthpro {
+    grid-column: 6/8;
+    grid-row: 5/6;
+    justify-self: center;
+    margin: 5px;
+    color: #0E9BAD;
+}
+
+#aimgfourth {
+    grid-column: 6/8;
+    grid-row: 6/7;
+}
+
+#imgfourth {
+    width: 100%;
+    height: auto;
+    grid-column: 6/8;
+    grid-row: 6/7;
+    justify-self: center;
+    border: 1px solid #0E9BAD;
+    padding: 5px;
+    box-shadow: 5px 3px #0E9BAD;
+}
+
+#imgfourth:hover {
+    opacity: .9;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 @media screen and (max-width: 700px) {
 
     nav,
