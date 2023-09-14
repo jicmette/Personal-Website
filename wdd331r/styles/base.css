@@ -1,0 +1,103 @@
+/*  Personal Site CSS */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+/*  MAIN CSS */
+body {
+    background-color: #1f2028;
+    font-family: 'Ubuntu', sans-serif;
+    color: #dbdbdb;
+    text-align: center;
+
+}
+
+/*  HEADER */
+
+header {
+    margin: 2rem;
+    text-align: center;
+}
+
+.logo {
+    width: 25%;
+}
+
+#logo{
+    justify-self: left;
+}
+
+.h1mywork {
+    font-size: 4rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #dbdbdb;
+}
+
+.greathone{
+    color: #282931;
+    font-size: 15vw;
+    top: 25px;
+    left: 500px;
+    z-index: -1;
+    grid-column: 1/10;
+    grid-row: 1/5;
+}
+
+h2,
+h3 {
+    color: #0E9BAD;
+    text-align: center;
+}
+
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    margin: 35px;
+    align-items: center;
+    color: #dbdbdb;
+}
+
+a:hover {
+    color: #0E9BAD;
+}
+
+
+/*  FOOTER*/
+footer {
+    display: grid;
+    justify-items: center;
+}
+
+.imgfoot {
+    width: 32px;
+}
+
+.imgfoot:hover {
+    filter: contrast(0%);
+    transition: .5s;
+}
+
+.contact {
+    margin: 10px;
+}
+
+.currentYear {
+    color: #dbdbdb;
+}
+
+
+
+.pfoot {
+    border: 0;
+    align-self: center;
+}
+
+/*  Contact */
+
+
+
+
+
+
