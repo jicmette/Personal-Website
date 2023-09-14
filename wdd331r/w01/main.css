@@ -14,17 +14,19 @@ h1{
     font-size: 4rem;
     font-family: 'Lora', serif;
     border-bottom: 1px solid #d0d0d0;
+    margin: 0;
+    padding: 1rem;
 }
 
 h2 {
     font-family: 'Lora', serif;
+    text-align: left;
 }
 
 a {
     text-decoration: none;
     color: #666;
 }
-
 
 ul {
     list-style-type: none;
@@ -34,6 +36,8 @@ ul {
     line-height: 3rem;
     font-family: 'Lora', serif;
     border-bottom: 1px solid #d0d0d0;
+    padding: 1rem;
+    margin: 0;
 }
 
 ul a:visited {
@@ -54,10 +58,11 @@ ul a:hover {
     text-transform: uppercase;
     font-family: 'Lora', serif;
     border-bottom: 1px solid #d0d0d0;
+    margin: 0;
+    padding: 3rem 0 1rem 0;
 }
 
 article {
-    
     border-bottom: 1px solid #d0d0d0;
 }
 
@@ -65,4 +70,28 @@ p {
     padding: 1rem;
     line-height: 1.5rem;
     text-align: left;
+}
+
+@media only screen and (min-width: 36em) {
+    ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    a {
+        padding: 1rem;
+    }
+
+    article {
+        display: grid;
+        grid-template-columns: 30% 70%;
+    }
+
+    .post-date {
+        border-right: 1px solid #d0d0d0;
+        border-bottom: none;
+        height: auto;
+        padding-right: 1rem;
+    }
+
 }
