@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body {
-    text-align: center;
     font-family: Helvetica, Sans-Serif;
     color: #333;
+    text-align: center;
 }
 
 div {
@@ -21,6 +21,8 @@ h1{
 h2 {
     font-family: 'Lora', serif;
     text-align: left;
+    margin: 0;
+    padding: 2rem;
 }
 
 a {
@@ -54,12 +56,11 @@ ul a:hover {
 
 .post-date{
     text-align: right;
-    padding-right: 2rem;
     text-transform: uppercase;
     font-family: 'Lora', serif;
     border-bottom: 1px solid #d0d0d0;
     margin: 0;
-    padding: 3rem 0 1rem 0;
+    padding: 2rem 2rem 2rem 0;
 }
 
 article {
