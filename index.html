@@ -4,133 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
     <link rel="icon" type="image/jpg" href="images/favicon-32x32.png" />
     <title>Israel Carmona</title>
-    <meta name="description" content="I'm a web and software developer from Saltillo, Coahuila, Mexico.">
+    <meta
+      name="description"
+      content="I'm a web and software developer from Saltillo, Coahuila, Mexico."
+    />
   </head>
 
   <body>
-    <div class="maincontainer">
-      <!--HEADER-->
-      <header>
+    <header>
+      <a id="logo" href="index.html">
+        <img src="images/ilogo.png" alt="Logo Israel Carmona" />
+      </a>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="./">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="overlay-links">
+          <a href="links.html" target="_blank">Links</a>
+        </div>
+      </div>
+      <span id="kmore" onclick="openNav()">&#9776;</span>
+    </header>
+
+    <!--MAIN CONTENT-->
+    <main>
+      <h2 class="h2side">Hello there, my name is</h2>
+      <h1 class="h1side">Israel Carmona</h1>
+      <h1 class="greathone">Israel Carmona.</h1>
+      <img id="mepic" src="images/me.jpg" alt="Israel Carmona picture" />
+
+      <p>I'm a web and software developer from Saltillo, Coahuila, Mexico.</p>
+
+      <p>Currently diving into these technologies</p>
+
+      <div id="programmingLang">
+        <img id="imgh" src="images/HTML5_Logo_64.png" alt="HTML logo" />
+        <a id="htpar" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML</a>
+
+        <img id="imgc" src="images/CSS3_logo_and_wordmark.svg.png" alt="CSS Logo"/>
+        <a id="cspar" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS</a>
+
+        <img id="imgj" src="images/Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript Logo"/>
+        <a id="javpar" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>
         
-          <a id="logo" href="index.html">
-            <img
-              class="logo"
-              src="images/ilogo.png"
-              alt="Logo Israel Carmona"
-            />
-          </a>
-        
-        <div id="resume">
-          <a id="aresume"
-            href="./resume.html"
-            target="_blank"
-            >RESUME
-          </a>
-        </div>
+        <img id="imgp" src="images/1024px-Python-logo-notext.svg.png" alt="Python Logo"/>
+        <a id="pytpar" href="https://www.python.org/" target="_blank">Python</a>
 
-        <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-            >&times;</a
-          >
-          <div class="overlay-content">
-            <a href="./">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </div>
-          <div class="overlay-links">
-            <a href="links.html" target="_blank">Links</a>
-          </div>
-        </div>
-        <span id="kmore" onclick="openNav()">&#9776;</span>
-      </header>
+        <img id="imgcs" src="images/seesharp.png" alt="C Sharp Logo" />
+        <a id="csharpar" href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/" target="_blank">C#</a>
 
-      <!--MAIN CONTENT-->
-      <main>
-        <div class="containerintro">
-          <div class="meint">
-            <h1 class="greathone">Israel Carmona.</h1>
-            <h2 class="h2side">Hello there, my name is <br /></h2>
-            <h1 class="h1side">Israel Carmona.</h1>
-            <img class="mepic" src="images/me.jpg" alt="me" />
+        <img class="imgnjs" src="images/nodejs.png" alt="Node.js" />
+        <a id="njspar" href="https://nodejs.org/en/about" target="_blank">Node.js</a>
+      </div>
+    </main>
 
-            <p class="pside1">
-              I'm a web and software developer from Saltillo, Coahuila, Mexico. 
-            </p>
-
-            <p class="pside2">
-              Currently diving into these technologies
-            </p>
-
-            <img class="imgh" src="images/HTML5_Logo_64.png" alt="HTML logo" />
-            <p class="htpar">HTML</p>
-
-            <img
-              class="imgc"
-              src="images/CSS3_logo_and_wordmark.svg.png"
-              alt="CSS Logo"
-            />
-            <p class="cspar">CSS</p>
-
-            <img
-              class="imgj"
-              src="images/Unofficial_JavaScript_logo_2.svg.png"
-              alt="JavaScript Logo"
-            />
-            <p class="javpar">JavaScript</p>
-
-            <img
-              class="imgp"
-              src="images/1024px-Python-logo-notext.svg.png"
-              alt="Python Logo"
-            />
-            <p class="pytpar">Python</p>
-
-            <img class="imgcs" src="images/seesharp.png" alt="C Sharp Logo" />
-            <p class="csharpar">C#</p>
-          </div>
-        </div>
-      </main>
-
-      <!--FOOTER-->
-      <footer>
-        <p class="pfoot">.</p>
-
-        <div class="contact">
-          <a href="https://github.com/jicmette" target="blank">
-            <img
-              class="imgfoot"
-              src="images/github-mark-white.png"
-              alt="GitHub"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/jicmette/" target="blank">
-            <img
-              class="imgfoot"
-              src="images/LI-In-Bugwhite.png"
-              alt="linkedin"
-            />
-          </a>
-          <a href="mailto:jicmettesc@gmail.com" target="blank">
-            <img
-              class="imgfoot"
-              src="images/Email-Symbol-PNG-File.png"
-              alt="Email"
-            />
-          </a>
-        </div>
-        <p class="pfoot">Designed and Built by Israel Carmona</p>
-        <p class="pfoot">&copy; <span class="currentYear"></span></p>
-      </footer>
-
-    </div>
+    <!--FOOTER-->
+    <footer>
+      <div class="contact">
+        <a href="https://github.com/jicmette" target="blank">
+          <img
+            class="imgfoot"
+            src="images/github-mark-white.png"
+            alt="GitHub"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/jicmette/" target="blank">
+          <img class="imgfoot" src="images/LI-In-Bugwhite.png" alt="linkedin" />
+        </a>
+        <a href="mailto:jicmettesc@gmail.com" target="blank">
+          <img
+            class="imgfoot"
+            src="images/Email-Symbol-PNG-File.png"
+            alt="Email"
+          />
+        </a>
+      </div>
+      <p class="pfoot">Designed and Built by Israel Carmona</p>
+      <p class="pfoot">&copy; <span class="currentYear"></span></p>
+    </footer>
 
     <script src="scripts/scripts.js"></script>
-
   </body>
 </html>

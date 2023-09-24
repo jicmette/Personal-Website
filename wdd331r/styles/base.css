@@ -27,21 +27,13 @@ header {
     justify-self: left;
 }
 
+/* MAIN */
+
 .h1mywork {
     font-size: 4rem;
     margin-top: 20px;
     margin-bottom: 20px;
     color: #dbdbdb;
-}
-
-.greathone{
-    color: #282931;
-    font-size: 15vw;
-    top: 25px;
-    left: 500px;
-    z-index: -1;
-    grid-column: 1/10;
-    grid-row: 1/5;
 }
 
 h2,
