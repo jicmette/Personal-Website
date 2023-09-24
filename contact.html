@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" type="image/jpg" href="images/favicon-32x32.png" />
@@ -13,27 +13,26 @@
   </head>
 
   <body>
-    <div class="maincontainer">
-      <!--HEADER-->
-      <header>
-        <a id="logo" href="index.html">
-          <img class="logo" src="images/ilogo.png" alt="Logo Israel Carmona" />
-        </a>
-        <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-            >&times;</a
-          >
-          <div class="overlay-content">
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </div>
-          <div class="overlay-links">
-            <a href="links.html" target="_blank">Links</a>
-          </div>
+    <header>
+      <a id="logo" href="index.html">
+        <img src="images/ilogo.png" alt="Logo Israel Carmona" />
+      </a>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="./">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
         </div>
-        <span id="kmore" onclick="openNav()">&#9776;</span>
-      </header>
+        <div class="overlay-links">
+          <a href="links.html" target="_blank">Links</a>
+        </div>
+      </div>
+      <span id="kmore" onclick="openNav()">&#9776;</span>
+    </header>
 
       <!--MAIN CONTENT-->
       <main>
@@ -114,8 +113,6 @@
         <p class="pfoot">Designed and Built by Israel Carmona</p>
         <p class="pfoot">&copy; <span class="currentYear"></span></p>
       </footer>
-
-    </div>
 
     <script src="scripts/scripts.js"></script>
     

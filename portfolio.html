@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <link rel="icon" type="image/jpg" href="images/favicon-32x32.png" />
@@ -13,71 +13,85 @@
   </head>
 
   <body>
-    <div class="maincontainer">
-      <!--HEADER-->
-      <header>
-        <a id="logo" href="index.html">
-          <img class="logo" src="images/ilogo.png" alt="Logo Israel Carmona" />
+    <header>
+      <a id="logo" href="index.html">
+        <img src="images/ilogo.png" alt="Logo Israel Carmona" />
+      </a>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="./">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="overlay-links">
+          <a href="links.html" target="_blank">Links</a>
+        </div>
+      </div>
+      <span id="kmore" onclick="openNav()">&#9776;</span>
+    </header>
+      
+    <main>
+      <h1 class="h1side">Portfolio</h1>
+      <p>These are some of my projects, check them out!</p>
+      <h1 class="greathone">Portfolio.</h1>
+
+      <div class="portfolioContainer">
+        <h2>Nexbitek, IT Services</h2>
+        <p>An IT Service business located in Saltillo, Coahuila, Mexico.</p>
+        <p>PERSONAL PROJECT</p>
+        <a id="aimgone" href="https://www.nexbitek.com/" target="_blank">
+          <img id="imgfirst" src="/images/Nexbitek.png" alt="Nexbitek Logo">
         </a>
-        <div id="myNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-          </div>
-          <div class="overlay-links">
-            <a href="links.html" target="_blank">Links</a>
-          </div>
-        </div>
-        <span id="kmore" onclick="openNav()">&#9776;</span>
-      </header>
+      </div>
 
-      <!--MAIN CONTENT-->
-      <main>
-        <div class="containermywork">
-          <h1 class="greathone">Portfolio.</h1>
-          <h1 class="h1mywork">Portfolio.</h1>
-          
-          <p class="pmywork">
-            These are some of my projects, check them out!
-          </p>
+      <div class="portfolioContainer">
+        <h2 id="secondpro" >Star Wars API</h2>
+        <p>Project created with HTML, CSS, Javascript feeded with <i><a href="https://swapi.dev/" target="_blank">The Star Wars API</a></i>.</p>
+        <p>BRIGHAM YOUNG UNIVERSITY - IDAHO PROJECT</p>
+        <a id="aimgtwo" href="/portfolio/starwarsapi/starwarsapi.html" target="_blank">
+          <img id="imgsnd" src="/portfolio/starwarsapi/images/starwarsimg.jpg" alt="Star Wars Project">
+        </a>
+      </div>
+        
+      <div class="portfolioContainer">
+        <h2 id="thirdpro">Chamber of Commerce Saltillo</h2>
+        <p>Created with HTML, CSS, and Javascript, feeded with a personal JSON file and the <i><a href="https://openweathermap.org/" target="_blank">Open Wheather API</a></i>.</p>
+        <p>BRIGHAM YOUNG UNIVERSITY - IDAHO PROJECT</p>
+        <a id="aimgthree" href="https://jicmette.github.io/wdd230/chamber/index.html" target="_blank">
+          <img id="imgsnd" src="/images/chamber-of-commerce-logo-saltillo.webp" alt="Chamber of Commerce Saltillo Logo">
+        </a>
+        
+      </div>
 
-            <h2 id="firstpro">Nexbitek</h2>
-                <a id="aimgone" href="https://www.nexbitek.com/" target="_blank">
-                    <img id="imgfirst" src="/images/Nexbitek.png" alt="Nexbitek Logo">
-                </a>
+      <div class="portfolioContainer">
+        <h2 id="fourthpro">Bountiful Foods</h2>
+        <p>HTML, CSS, Javascript were used to create this website, feeded with the <i><a href="https://openweathermap.org/" target="_blank">Open Wheather API</a></i>.</p>
+        <p>BRIGHAM YOUNG UNIVERSITY - IDAHO PROJECT</p>
+        <a id="aimgfourth" href="https://jicmette.github.io/wdd230/bountiful-foods/index.html" target="_blank">
+          <img id="imgfourth" src="/images/bountiful-logo.webp" alt="Bountiful Foods Logo">
+        </a>
+      </div>
 
-            <h2 id="secondpro" >Star Wars API</h2>
-            
-                <a id="aimgtwo" href="/portfolio/starwarsapi/starwarsapi.html" target="_blank">
-                    <img id="imgsnd" src="/portfolio/starwarsapi/images/starwarsimg.jpg" alt="Star Wars Project">
-                </a>
-
-            <h2 id="thirdpro">Chamber of Commerce Saltillo</h2>
-                <a id="aimgthree" href="https://jicmette.github.io/wdd230/chamber/index.html" target="_blank">
-                    <img id="imgsnd" src="/images/chamber-of-commerce-logo-saltillo.webp" alt="Chamber of Commerce Saltillo Logo">
-                </a>
-
-            <h2 id="fourthpro">Bountiful Foods</h2>
-                <a id="aimgfourth" href="https://jicmette.github.io/wdd230/bountiful-foods/index.html" target="_blank">
-                    <img id="imgfourth" src="/images/bountiful-logo.webp" alt="Bountiful Foods Logo">
-                </a>
-
-            <h2 id="fifthpro">White Water Rafting Website</h2>
-                <a id="aimgfifth" href="https://jicmette.github.io/WDD-130-Web-Fundamentals/wwr/index.html" target="_blank">
-                    <img id="imgfifth" src="/images/logo.png" alt="White Water Rafting Logo">
-                </a>
-
-
-        </div>
+      <div class="portfolioContainer">
+        <h2 id="fifthpro">White Water Rafting Website</h2>
+        <p>Built with HTML and CSS.</p>
+        <p>BRIGHAM YOUNG UNIVERSITY - IDAHO PROJECT</p>
+        <a id="aimgfifth" href="https://jicmette.github.io/WDD-130-Web-Fundamentals/wwr/index.html" target="_blank">
+          <img id="imgfifth" src="/images/logo.png" alt="White Water Rafting Logo">
+        </a>
+        
+      </div>
+              
+        
  
       </main>
 
       <!--FOOTER-->
       <footer>
-        <p class="pfoot">.</p>
-        
         <div class="contact">
           <a href="https://github.com/jicmette" target="blank">
             <img
