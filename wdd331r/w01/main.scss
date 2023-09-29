@@ -1,0 +1,110 @@
+$main-color: #333;
+$second-color: #666;
+$third-color: #deb887;
+$fourth-color: #00ddff;
+$fifth-font: #d0d0d0;
+$main-font-family: Helvetica, Sans-Serif;
+$headlines-font: "Lora", serif;
+$break-large: 36em;
+
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+body {
+  font-family: $main-font-family;
+  color: $main-color;
+  text-align: center;
+}
+
+div {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: $headlines-font;
+  border-bottom: 1px solid #d0d0d0;
+  margin: 0;
+  padding: 1rem;
+}
+
+h2 {
+  font-family: $headlines-font;
+  text-align: left;
+  margin: 0;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: $second-color;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 3rem;
+  font-family: $headlines-font;
+  border-bottom: 1px solid #d0d0d0;
+  padding: 1rem;
+  margin: 0;
+
+  a {
+    &:visited {
+      color: $second-color;
+    }
+    &:active {
+      color: $third-color;
+    }
+    &:hover {
+      color: $fourth-color;
+    }
+  }
+}
+
+.post-date {
+  text-align: right;
+  text-transform: uppercase;
+  font-family: $headlines-font;
+  border-bottom: 1px solid #d0d0d0;
+  margin: 0;
+  padding: 2rem 2rem 2rem 0;
+}
+
+article {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+p {
+  padding: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+@mixin breakpoint($break) {
+  @media (min-width: $break-large) { @content; }
+}
+
+@include breakpoint($break-large) {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    a {
+      padding: 1rem;
+    }
+
+    article {
+      display: grid;
+      grid-template-columns: 30% 70%;
+    }
+
+    .post-date {
+      border-right: 1px solid #d0d0d0;
+      border-bottom: none;
+      height: auto;
+      padding-right: 1rem;
+    }
+  }

@@ -1,0 +1,100 @@
+//Demo SCSS file for adding some variables for colors.
+
+//colors
+
+$body-background-color: darkred;
+$form-background-color: white;
+$input-color: white;
+$headlines-color: white;
+
+//breakpoints
+$break-small: 100%;
+$break-large: 100%;
+
+body {
+  background-color: $body-background-color;
+}
+
+#contactform {
+  background-color: $form-background-color;
+  input,
+  textarea {
+    background-color: $input-color;
+    flex: 2;
+  }
+
+  @mixin center($width, $max-width: 960px) {
+    width: $width;
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contactform {
+    @include center(50%);
+  }
+
+  #contactform {
+    @include center(50%, 800px);
+  }
+
+  @media (min-width: $break-small) {
+    & {
+      width: 90%;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media (width: $break-large) {
+    & {
+      width: 70%;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @mixin breakpoint($point) {
+    @if $point == small {
+      @media (max-width: 600px) {
+        @content;
+      }
+    } @else if $point == medium {
+      @media (min-width: 601px) and (max-width: 1024px) {
+        @content;
+      }
+    } @else if $point == large {
+      @media (min-width: 1025px) {
+        @content;
+      }
+    }
+  }
+
+  label {
+    // styles for medium and large screens
+    float: left;
+    width: 30%;
+
+    @include breakpoint(small) {
+      // styles for small screens
+      float: none;
+      width: 100%;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    // styles for medium and large screens
+    float: right;
+    width: 70%;
+
+    @include breakpoint(small) {
+      // styles for small screens
+      float: none;
+      width: 100%;
+    }
+  }
+}

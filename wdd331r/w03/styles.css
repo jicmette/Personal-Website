@@ -1,0 +1,66 @@
+body {
+  background-color: darkred;
+}
+
+#contactform {
+  background-color: white;
+}
+#contactform input,
+#contactform textarea {
+  background-color: white;
+  flex: 2;
+}
+#contactform #contactform {
+  width: 50%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contactform #contactform {
+  width: 50%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 100%) {
+  #contactform {
+    width: 90%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (width: 100%) {
+  #contactform {
+    width: 70%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#contactform label {
+  float: left;
+  width: 30%;
+}
+@media (max-width: 600px) {
+  #contactform label {
+    float: none;
+    width: 100%;
+  }
+}
+#contactform input[type=text],
+#contactform input[type=email],
+#contactform input[type=password] {
+  float: right;
+  width: 70%;
+}
+@media (max-width: 600px) {
+  #contactform input[type=text],
+  #contactform input[type=email],
+  #contactform input[type=password] {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
