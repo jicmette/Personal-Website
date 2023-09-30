@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
     <link rel="icon" type="image/jpg" href="images/favicon-32x32.png" />
     <title>Contact</title>
   </head>
@@ -34,87 +34,65 @@
       <span id="kmore" onclick="openNav()">&#9776;</span>
     </header>
 
-      <!--MAIN CONTENT-->
-      <main>
-        <div class="containermywork">
-          <h1 class="greathone">Contact.</h1>
-          <h1 class="h1mywork">Contact.</h1>
-        </div>
+    <!--MAIN CONTENT-->
+    <main>
+      <h1 class="greathone">Contact.</h1>
 
-        <div class="containercontact">
-          <p class="pcontact">
-            I'm searching for any new opportunity, my inbox is always open, contact me! 
-          </p>
+      <p>
+        I'm searching for any new opportunity, my inbox is always open, contact
+        me!
+      </p>
 
-          <div class="formarea">
-            <form class="form1" action="/my-handling-form-page" method="post">
-              <input
-                type="text"
-                id="name"
-                name="user_name"
-                placeholder="Name"
-              />
+      <form class="form1" action="/my-handling-form-page" method="post">
+        <input type="text" id="name" name="user_name" placeholder="Name" />
 
-              <input
-                type="email"
-                id="mail"
-                name="user_email"
-                placeholder="Email"
-              />
+        <input type="email" id="mail" name="user_email" placeholder="Email" />
 
-              <textarea
-                id="msg"
-                name="user_message"
-                placeholder="Message"
-              ></textarea>
+        <textarea name="user_message" placeholder="Message"></textarea>
 
-              <button
-                class="button"
-                onclick="messagesent_alert()"
-                type="submit"
-              >
-                Submit
-              </button>
-            </form>
-          </div>
+        <button class="button" onclick="messagesent_alert()" type="submit">
+          Submit
+        </button>
+      </form>
 
-          <div class=""></div>
-          <img class="imgmap" src="images/map2.jpg" alt="map" />
-        </div>
-      </main>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115303.40979627495!2d-101.06562446966419!3d25.430520956215158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86880d9078df19ef%3A0xa9519241794730c0!2sSaltillo%2C%20Coahuila!5e0!3m2!1sen!2smx!4v1696106568995!5m2!1sen!2smx"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </main>
 
-      <!--FOOTER-->
-      <footer>
-        <p class="pfoot">.</p>
-        
-        <div class="contact">
-          <a href="https://github.com/jicmette" target="blank">
-            <img
-              class="imgfoot"
-              src="images/github-mark-white.png"
-              alt="GitHub"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/israelcarmona/" target="blank">
-            <img
-              class="imgfoot"
-              src="images/LI-In-Bugwhite.png"
-              alt="linkedin"
-            />
-          </a>
-          <a href="mailto:jicmettesc@gmail.com" target="blank">
-            <img
-              class="imgfoot"
-              src="images/Email-Symbol-PNG-File.png"
-              alt="Email"
-            />
-          </a>
-        </div>
-        <p class="pfoot">Designed and built by Israel Carmona</p>
-        <p class="pfoot">&copy; <span class="currentYear"></span></p>
-      </footer>
+    <!--FOOTER-->
+    <footer>
+      <p class="pfoot">.</p>
+
+      <div class="contact">
+        <a href="https://github.com/jicmette" target="blank">
+          <img
+            class="imgfoot"
+            src="images/github-mark-white.png"
+            alt="GitHub"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/israelcarmona/" target="blank">
+          <img class="imgfoot" src="images/LI-In-Bugwhite.png" alt="linkedin" />
+        </a>
+        <a href="mailto:jicmettesc@gmail.com" target="blank">
+          <img
+            class="imgfoot"
+            src="images/Email-Symbol-PNG-File.png"
+            alt="Email"
+          />
+        </a>
+      </div>
+      <p class="pfoot">Designed and built by Israel Carmona</p>
+      <p class="pfoot">&copy; <span class="currentYear"></span></p>
+    </footer>
 
     <script src="scripts/scripts.js"></script>
-    
   </body>
 </html>

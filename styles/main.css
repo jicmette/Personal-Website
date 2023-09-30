@@ -329,18 +329,12 @@ footer a {
   width: 80%;
 }
 
-#imgfirst:hover {
-}
-
 #secondpro {
   grid-column: 6/8;
   grid-row: 3/4;
   justify-self: center;
   margin: 5px;
   color: #0e9bad;
-}
-
-#aimgtwo {
 }
 
 #imgsnd {
@@ -353,9 +347,6 @@ footer a {
   justify-self: center;
   margin: 5px;
   color: #0e9bad;
-}
-
-#aimgthree {
 }
 
 #imgthree {
@@ -372,9 +363,6 @@ footer a {
   color: #0e9bad;
 }
 
-#aimgfourth {
-}
-
 #imgfourth {
   width: 70%;
 }
@@ -389,97 +377,24 @@ footer a {
   width: 40%;
 }
 
-/*  Contact */
-
-.containermywork {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  align-items: center;
-}
-
-.h1mywork {
-  grid-column: 3/8;
-  grid-row: 1/2;
-  font-size: 80px;
-  justify-self: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #dbdbdb;
-}
-
-.pmywork {
-  grid-column: 3/8;
-  grid-row: 2/3;
-  text-align: center;
-  line-height: 1.5;
-  font-size: 1.3em;
-}
-
-.h2mywork {
-  grid-column: 3/8;
-  grid-row: 3/4;
-  justify-self: center;
-}
-
-.h2mywork2 {
-  grid-column: 6/8;
-  grid-row: 3/4;
-  justify-self: center;
-}
-
-.imgnexb {
-  grid-column: 3/8;
-  grid-row: 4/5;
-  justify-self: center;
-  width: 500px;
-  height: auto;
-  border: 1px solid #0e9bad;
-  padding: 20px;
-  box-shadow: 5px 10px #0e9bad;
-  margin-bottom: 30px;
-}
-
-.containercontact {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  align-items: center;
-}
-
-.pcontact {
-  grid-column: 2/6;
-  grid-row: 2/3;
-  margin-bottom: 30px;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  font-size: 1.3em;
-  line-height: 1.5;
-}
-
-.formarea {
+/*CONTACT PAGE*/
+form {
   grid-column: 2/6;
   grid-row: 3/5;
   padding: 50px;
 }
 
-.form1 {
-  grid-column: 2/5;
-  grid-row: 3/4;
-}
-
-.imgmap {
-  grid-column: 6/9;
-  grid-row: 2/6;
-  width: 400px;
-  height: auto;
-  border: 1px solid #0e9bad;
+iframe {
+  width: 100%;
+  border: 1px solid #282931;
   padding: 5px;
-  box-shadow: 5px 10px #0e9bad;
+  box-shadow: 5px 10px #282931;
   margin-bottom: 30px;
   justify-self: center;
+  filter: grayscale(100%) invert(92%) contrast(83%);
 }
+
+
 
 input[type="text"] {
   background-color: #343542;
@@ -519,23 +434,22 @@ input[type="email"]:focus {
   transition: 0.7s;
 }
 
-#msg {
+textarea {
   background-color: #343542;
   color: white;
   margin-top: 10px;
-  grid-column: 2/6;
   justify-self: center;
   width: 100%;
   height: 150px;
   font-size: 14px;
   text-decoration: none;
   outline: none;
-  resize: vertical;
+  resize: none;
   padding: 10px;
   line-height: 1.5;
 }
 
-#msg:focus {
+textarea:focus {
   border-bottom: 5px solid #dbdbdb;
   transition: 0.7s;
 }
