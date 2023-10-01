@@ -31,8 +31,8 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-    color: #dbdbdb;
+a:hover {
+  color: #dbdbdb;
 }
 
 /*  HEADER */
@@ -101,7 +101,6 @@ header {
 }
 
 /*  OVERLAY*/
-
 .overlay {
   height: 100%;
   width: 100%;
@@ -158,7 +157,7 @@ footer {
 }
 
 footer a {
-    margin: 1rem;
+  margin: 1rem;
 }
 
 .imgfoot {
@@ -316,9 +315,9 @@ footer a {
   transition: 0.2s;
 }
 
-#portfolioContainer p{
-    text-align: center;
-    margin: auto 2rem;
+#portfolioContainer p {
+  text-align: center;
+  margin: auto 2rem;
 }
 
 #aimgone {
@@ -341,7 +340,6 @@ footer a {
   width: 80%;
   justify-self: center;
 }
-
 
 #thirdpro {
   justify-self: center;
@@ -391,10 +389,8 @@ iframe {
   box-shadow: 5px 10px #282931;
   margin-bottom: 30px;
   justify-self: center;
-  filter: grayscale(100%) invert(92%) contrast(83%);
+  filter: grayscale(50%) invert(100%) contrast(83%);
 }
-
-
 
 input[type="text"] {
   background-color: #343542;
@@ -470,70 +466,32 @@ textarea:focus {
   transition: 1s;
 }
 
-/*My Links */
-
-.maincontainerlinks {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-}
-
-.mylinksp1 {
-  font-size: 2em;
-  grid-column: 3/7;
-  grid-row: 3/4;
-  margin-bottom: 0;
-  font-weight: bold;
-  text-align: center;
-  line-height: 1.5;
-}
-
-.mylinksp2 {
-  grid-column: 3/7;
-  grid-row: 4/5;
-  text-align: center;
-  font-style: italic;
-  margin: 0;
-  line-height: 1.5;
-  font-size: 1em;
-}
-
-.h2mylinks {
-  grid-column: 3/7;
-  grid-row: 5/6;
-  justify-self: center;
-}
-
+/*MY LINKS PAGE */
 .mepiclinks {
-  width: 150px;
-  grid-column: 3/7;
-  grid-row: 2/3;
+  width: 30%;
   border-radius: 50%;
-  justify-self: center;
-  margin-top: 25px;
 }
 
-.listlinks {
-  grid-row: 6/7;
-  grid-column: 3/7;
-  margin-top: 0;
-}
-.mylinks {
-  background-color: white;
-  padding: 10px;
-  text-align: center;
-  margin: 15px;
-  border: 5px;
-  border-radius: 30px;
+#mylinks a {
   color: #1f2028;
-  font-weight: bolder;
-  grid-row: 6/7;
+  background-color: #dbdbdb;
+  border-radius: 1.5rem;
+  padding: 0.5rem 3rem;
 }
 
-.mylinks:hover {
-  transition: 1s;
-  background-color: #80d2d8;
+#mylinks a:hover {
+  background-color: #0e9bad;
+  color: #dbdbdb;
+  border-radius: 1.5rem;
 }
-#links {
-  color: #1f2028;
-  text-align: center;
+
+#mylinks {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+#mylinks li {
+  line-height: 4rem;
+  list-style-type: none;
 }
